@@ -23,4 +23,7 @@ class Person {
 
 $getResult = new Person("King",25);
 echo $getResult -> getDetails();
+echo "<br/>";
+
+echo var_dump($getResult);
 ?>
