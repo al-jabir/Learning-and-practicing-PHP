@@ -9,8 +9,23 @@
 </head>
 
 <body>
+
     <?php
+    // Three type of tag are available in php
+
+    // normal tag
+
     echo "<h1>Learning php kill id dead</h1>";
+    ?>
+
+    <?=
+    // short tag echo
+    '<h3>I will be learning PHP</h3>'
+    ?>
+
+    <?
+    // short tag
+    'I will be Programmer'
     ?>
 </body>
 
