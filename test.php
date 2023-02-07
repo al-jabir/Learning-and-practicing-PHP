@@ -26,4 +26,10 @@ echo $getResult -> getDetails();
 echo "<br/>";
 
 echo var_dump($getResult);
+
+echo "<br/>";
+
+$str = "I will be good programmer.";
+
+echo str_word_count($str);
 ?>
