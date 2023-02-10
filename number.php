@@ -33,6 +33,24 @@
     echo "<br/>";
     $s_cast = (int)$s;
     echo $s_cast;
+
+    echo "<br/>";
+
+    echo min(3,5,6,8,19,22);
+    echo max(3,5,6,8,19,22);
+
+    echo '<br/>';
+
+    $a = 44;
+    $s = '34';
+    $fl = 33.98;
+    $str = 'mafia';
+
+    echo var_dump(is_numeric($a)) . '<br/>';
+    echo var_dump(is_numeric($s)) . '<br/>';
+    echo var_dump(is_numeric($fl)) . '<br/>';
+    echo var_dump(is_numeric($str)) . '<br/>';
+
     ?>
 </body>
 
