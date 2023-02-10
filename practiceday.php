@@ -37,4 +37,9 @@ $getResult = new Phone;
 
 $getResult -> getModel('OnePlus 9 pro');
 
+echo '<br />';
+
+echo 'Today is ' .date('d,m,y');
+
+
 ?>
