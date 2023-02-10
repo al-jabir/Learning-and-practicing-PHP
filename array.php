@@ -29,4 +29,18 @@ foreach($age as $n => $val){
 
 // mutlidimensional array
 
+$myCar = array(
+    array("Volvo",22,18),
+    array("BMW",15,13),
+    array("Saab",5,2),
+);
+
+for ($row = 0; $row < 4; $row++) {
+    echo "<p><b>Row number $row</b></p>";
+    
+    for ($col = 0; $col < 3; $col++) {
+      echo "<li>".$myCar[$row][$col]."</li>";
+    }
+    
+  }
 ?>
