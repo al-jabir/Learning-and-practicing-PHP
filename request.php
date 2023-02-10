@@ -9,15 +9,16 @@
     </form>
 
     <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // collect value of input field
-    $name = htmlspecialchars($_REQUEST['fname']);
-    if (empty($name)) {
-        echo "Name is empty";
-    } else {
-        echo "<h1>Your name is $name</h1>";
+
+    if($_SERVER['REQUEST_METHOD'] == 'POST'){
+        $name = $_REQUEST['fname'];
+        if(empty($name)){
+            echo "<h3>Found of user data name</h3>";
+        }else{
+            echo "<h1>Your name is $name</h1>";
+        }
     }
-}
+
 ?>
 
 </body>
