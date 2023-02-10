@@ -50,7 +50,7 @@
     echo var_dump(is_numeric($s)) . '<br/>';
     echo var_dump(is_numeric($fl)) . '<br/>';
     echo var_dump(is_numeric($str)) . '<br/>';
-
+    echo (int)$s;
     ?>
 </body>
 
