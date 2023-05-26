@@ -20,12 +20,14 @@
         "Full stack developer"
     ];
     ?>
-    <ul type="square">
+    <ul type="circle">
         <?php
-        foreach($books as $book){
-            echo "<h1>$book</h1>";
-        }
-        ?>
+        foreach($books as $book) : ?>
+
+        <li><?php echo "<h3>$book</h3>" ?></li>
+
+        <?php endforeach; ?>
+
     </ul>
 </body>
 
