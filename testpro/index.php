@@ -44,10 +44,10 @@
         ]
     ];
 
-    foreach ($data as $person) {
-        echo '<h3>Name: ' . $person['name'] . '</h3>';
-        echo '<p>Job: ' . $person['job'] . '</p>';
-        echo '<p>Salary: ' . $person['salary'] . '</p>';
+    foreach ($data as $user) {
+        echo '<h3>My name is ' .$user['name'] .'</h3>';
+        echo '<h5>I am ' . $user['job'] .'</h5>';
+        echo '<b>My salary is monthly ' .$user['salary'].' TK.</b>';
         echo '<br>';
     }
     ?>
